@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libraries")(type "KiCad")(uri "${KIPRJMOD}/Libraries")(options "")(descr ""))
+  (lib (name "Footprint - ATMEGA328PPU")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint - ATMEGA328PPU")(options "")(descr ""))
+)

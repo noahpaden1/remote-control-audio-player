@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "218f5557-ac15-4e0e-91f7-cc10de2d05c5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 149.606 74.676)
+		(size 65.532 41.656)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a40aaeb1-38f2-4303-bac7-26e06633f910")
+		(property "Sheetname" "DF Player Interface"
+			(at 149.606 73.9644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "df_player_interface.kicad_sch"
+			(at 149.606 116.9166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_player"
+				(path "/218f5557-ac15-4e0e-91f7-cc10de2d05c5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 74.422)
+		(size 64.262 41.656)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e19231ed-7274-49f8-b5ea-ff20d7122344")
+		(property "Sheetname" "Memory and Processing"
+			(at 43.18 73.7104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 43.18 116.6626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_player"
+				(path "/218f5557-ac15-4e0e-91f7-cc10de2d05c5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
