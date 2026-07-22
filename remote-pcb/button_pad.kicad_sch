@@ -1,0 +1,2620 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d55cd954-33fe-473c-9fcf-1211ff71bb10")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 215.9 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0909335d-4ff7-4a14-b3dd-f5b82b4e0c4b")
+	)
+	(junction
+		(at 119.38 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15a90c80-50a5-496f-8566-236173fd3d18")
+	)
+	(junction
+		(at 142.24 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19681c51-3031-4b99-ae0b-b78c1a1fb49a")
+	)
+	(junction
+		(at 101.6 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c2b23b-c3d9-4249-bbe5-a880b70d1d03")
+	)
+	(junction
+		(at 163.83 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24d1c475-bc1a-482a-9e96-0995433d7302")
+	)
+	(junction
+		(at 198.12 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381b2a78-e870-460d-a402-9a2f42fd4531")
+	)
+	(junction
+		(at 194.31 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48416927-a345-4b33-94e5-d1c4e437ccaa")
+	)
+	(junction
+		(at 104.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f4002f7-5db8-4950-a7a6-f46a7705cf79")
+	)
+	(junction
+		(at 184.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aaf8b24-9a95-4971-9e5d-8d636623d267")
+	)
+	(junction
+		(at 184.15 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c17b19c-19fc-44d5-bcd9-0968415a31c0")
+	)
+	(junction
+		(at 143.51 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88fa5663-dd15-4b4f-ba3f-006c9ff46224")
+	)
+	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b702f9-8f91-4cf7-b021-3e31035495b3")
+	)
+	(junction
+		(at 194.31 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4315531-0688-465a-ab9d-206d89ad62cc")
+	)
+	(junction
+		(at 153.67 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13239ad-cd7d-40f9-8caa-76cbfef66b9f")
+	)
+	(junction
+		(at 152.4 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf626c4f-332f-48e0-a40b-c16dd9c94916")
+	)
+	(junction
+		(at 181.61 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e18b5e62-ffca-498c-99ca-97fd2aed8811")
+	)
+	(junction
+		(at 81.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee232f80-1f75-4ead-ba44-b648af5a3df8")
+	)
+	(wire
+		(pts
+			(xy 194.31 127) (xy 199.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0118814f-ac7c-4585-b6ba-878f133c7cf2")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018748c6-5237-4fa0-a405-d77e795b903d")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018d51e6-47a5-4de7-8357-4a962f439339")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0626476d-1b00-4ef1-a1fa-de67f87dbbc6")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 215.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076d695d-a927-4642-9f55-bc5ccfdf6686")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7df464-336e-4a64-8667-2b84ac959faa")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1c04c0-013a-42f2-b67a-f99d137604e6")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3c0986-50d2-4388-aa6b-ab53004f198f")
+	)
+	(wire
+		(pts
+			(xy 181.61 115.57) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10082bab-d56d-4e39-9df5-52c6575a915e")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11016e18-83ef-4372-b85d-33e9112d00dc")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1115aad0-1556-46ab-ae78-f35cc075e0cb")
+	)
+	(wire
+		(pts
+			(xy 198.12 74.93) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115a9753-8263-4421-bcc6-b995078bad5b")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12530d23-756b-45b2-b66a-2a7d53e310bb")
+	)
+	(wire
+		(pts
+			(xy 198.12 80.01) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152f00bb-d142-4f9d-9f0b-a93ab4e0e28f")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5addc7-62db-4f11-8324-17bdd254f11e")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9482c3-3dd4-4b78-81ea-fa491f5f4b74")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb978e6-0cf7-4775-b824-005af776ff60")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fe0a65-b2d4-4393-8d16-e42ee3fba8f7")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e14553-793b-44c3-af98-98f1111be7bd")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a41e92a-a098-4db3-88e3-042984603629")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f3101c-0c20-4939-b96b-4f543c12a2fa")
+	)
+	(wire
+		(pts
+			(xy 181.61 115.57) (xy 184.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab93d97-7f45-4fd6-9a26-a37408fbd740")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f676257-7df5-4f46-9af5-3158e758a4a9")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dd9a5a-973b-469d-83d0-5a241079f53a")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1bce46-4a91-4c20-88bc-dd2ba91187ca")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c591e4-1042-42dd-8076-902051588fa6")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e0440a-6bb0-48e6-a181-eef35956bb18")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641fd1aa-ae7b-49cc-8175-e7457d590bb6")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 194.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655404a3-aa3f-4df7-8646-e8b70094f1ef")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679dac5e-b592-4c48-a83e-d3c34dbe984c")
+	)
+	(wire
+		(pts
+			(xy 215.9 120.65) (xy 219.71 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6a17b9-5228-4a66-b8dc-71f7be918c86")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7708c150-f6f1-40e9-bb02-8a44b30cdcbb")
+	)
+	(wire
+		(pts
+			(xy 184.15 71.12) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785783b8-12a8-4516-91b4-ca18addd5eee")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9598d9-57e4-406f-bd58-b18e00b0c944")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9b7b8d-d159-4b76-9d3e-be4159255bec")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d589ec6-da31-4c6e-8280-4218f0481270")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927ecbcf-29a5-4952-b2ca-b7e0005d169e")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9807e986-b7cf-45b4-8672-4b486061731e")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a124cc9d-14a4-4925-8856-f653f5ccd802")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1afb77a-4681-4508-9808-b6d6bb6b2e45")
+	)
+	(wire
+		(pts
+			(xy 100.33 87.63) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5534e5c-7c8c-4853-aab7-e0e226b2d39a")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad448ea-c571-4317-84b9-a7323ef7c50c")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31f0178-5082-41da-94fc-077e4ad9d772")
+	)
+	(wire
+		(pts
+			(xy 215.9 119.38) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b395c899-9cc6-41cf-8ccd-bb433b54bca9")
+	)
+	(wire
+		(pts
+			(xy 90.17 115.57) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45ee051-fda2-42d0-8cf4-4f18e97ad354")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 199.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cd823c-0e65-46e8-bf8e-66aba3283041")
+	)
+	(wire
+		(pts
+			(xy 213.36 119.38) (xy 215.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d40eac-0145-4163-b8a0-3789b4222310")
+	)
+	(wire
+		(pts
+			(xy 194.31 115.57) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca33a35f-86b6-4f75-a6fa-01bfa955d5e3")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdc67d3-0d5b-4c31-bccf-de6ea4739892")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.11) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1661fd5-6624-4962-90e1-227657dbea95")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d495c0-5126-4a98-9c3d-bdb010221f2b")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f1e614-6718-49ea-af21-610bd01ebd6f")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa99184-f0cf-450b-9e5e-5095716755d6")
+	)
+	(wire
+		(pts
+			(xy 213.36 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de601034-fe8c-4579-949c-ae6d77199192")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df76067c-bcd4-4d18-b541-c6bf45b48d24")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0556a3-5121-46b5-962b-e218f064404c")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec58db4c-df9f-40e9-ada0-c41f3bfabcb5")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0918ac9-cf10-4ba2-8434-9c44544904c9")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24d93e9-9d85-4891-947c-30755986a6ba")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46b8588-1269-40e7-9f7d-513f7a186056")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 205.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66b1f1a-9bb8-4091-9ec6-bab9b03e63a6")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb812d34-11a9-4088-9f55-4672dbe5a061")
+	)
+	(wire
+		(pts
+			(xy 119.38 118.11) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9312eb-838b-4c0c-8623-38307b0c74cd")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8a5fc2-7c67-4913-90ba-21a70bd08534")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7c2a86-828d-47e5-a2eb-5c9be2d5ff7b")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1d9491-4fc3-47a2-ab4c-85f5e4e6958c")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffff5470-4ddd-4a95-99f6-82ffab9f0e42")
+	)
+	(rectangle
+		(start 73.025 67.31)
+		(end 224.79 135.255)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d1dbe284-95a2-4c18-98e2-7cca8e673673)
+	)
+	(text "Button Pad"
+		(exclude_from_sim no)
+		(at 79.248 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f439673d-41d4-4e8c-8bbf-b62aeaee1302")
+	)
+	(label "D4"
+		(at 184.15 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11921d0f-dbad-4b03-91f6-398575922767")
+	)
+	(label "D5"
+		(at 203.2 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b332c62-809e-469b-88fb-faff5b5a70aa")
+	)
+	(label "D7"
+		(at 143.51 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dab82fe-680d-4edf-a126-e327dc45dfd5")
+	)
+	(label "D8"
+		(at 104.14 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57efe789-843f-426d-872b-ab2e3a72d3f8")
+	)
+	(label "D9"
+		(at 219.71 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6056f8bd-1906-4cdf-b860-e494faf97b5a")
+	)
+	(label "D3"
+		(at 142.24 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70a1ad48-3d93-40a2-8672-6a51e568bccb")
+	)
+	(label "Vcc"
+		(at 77.47 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "893d69a2-f6cb-4e76-8c0a-191893540266")
+	)
+	(label "D2"
+		(at 101.6 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dddcc019-4713-495d-83cf-24f5f73cde2d")
+	)
+	(label "D6"
+		(at 184.15 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fff9a1ee-677e-4c52-8104-40c57fb426ab")
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 176.53 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06dbbc31-2555-4189-8193-fef0aaef5b01")
+		(property "Reference" "SW6"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 182.118 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab512188-c534-4ed4-960e-e77507079ca9")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8319")
+		)
+		(pin "1"
+			(uuid "7371f83e-66bf-46d0-aab2-42c28269d207")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec4")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c3302a7-4140-487c-8dfa-247e6d17169a")
+		(property "Reference" "R7"
+			(at 110.49 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 110.49 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80354334-2f06-4b90-ad2e-ec0c1dc09a21")
+		)
+		(pin "1"
+			(uuid "600fa979-5682-4d02-95b8-cc814a1f1f45")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25bce548-e252-4ee2-847d-63ef8b110584")
+		(property "Reference" "#PWR01"
+			(at 205.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b4ee7a-5dec-4243-a9e8-a12af200e6f0")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 134.62 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b0113e7-5a5a-42a2-b3d1-c0177fb81c76")
+		(property "Reference" "SW4"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 140.208 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ae16aba-7d81-4456-82bc-b3d7e101393f")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c831a")
+		)
+		(pin "1"
+			(uuid "bfdae39f-fe8f-4617-828f-c05c37850446")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec5")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3205d59a-50f9-447c-8177-5d1e03b495da")
+		(property "Reference" "#PWR02"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66152134-d533-4fca-99b2-b3b7e1d14631")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34fa3c7c-e140-4603-a0a6-ff7093c83a2c")
+		(property "Reference" "R13"
+			(at 218.44 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 218.44 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 217.678 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c28335a5-d42a-482e-8519-91d8720cf9e2")
+		)
+		(pin "1"
+			(uuid "6c8f95c7-a227-42a1-8904-e11713245898")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 194.31 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35bf2500-d098-477a-b27c-c4de56eb8aca")
+		(property "Reference" "SW7"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 199.898 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fceef85b-5fdb-4f09-b12e-65dc4cb1deb0")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8318")
+		)
+		(pin "1"
+			(uuid "2d2e2a8d-3c11-4b54-98e4-9ba0bd940747")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec3")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb259f5-37e1-41a5-bc52-26af073e6c5e")
+		(property "Reference" "R9"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.86 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 149.86 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d4e6653-b6a0-4d78-b696-bae2115e23ec")
+		)
+		(pin "1"
+			(uuid "a1e875f6-61e8-4dac-85c4-799b0b7899d2")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d7ec7de-fdbb-46a9-844d-e4580d5f0ab2")
+		(property "Reference" "SW1"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 100.838 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dafd3f5-4bf3-40aa-a5f6-263f2740403a")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c831b")
+		)
+		(pin "1"
+			(uuid "59310c42-11c3-443b-a3a8-4377c549a34d")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec6")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 213.36 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7318a1a1-3ebf-4fb6-b2a8-2db177d11cb4")
+		(property "Reference" "SW8"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 227.838 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6663fb1e-0f57-4d0b-a738-361b8c464033")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8316")
+		)
+		(pin "1"
+			(uuid "5b1d87a5-9eae-41a4-8d25-93fc3c4092d0")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec1")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 95.25 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a247dd7-141a-4545-9b29-3e5d80556016")
+		(property "Reference" "SW2"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 100.838 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "639d55b5-dd05-4f2c-be0a-a548d1d008dd")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8317")
+		)
+		(pin "1"
+			(uuid "f1184bb4-e662-4d8c-826e-c92b412eb4e3")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec2")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa5aed8-82c5-4268-9a63-eeb067a6eab5")
+		(property "Reference" "R11"
+			(at 190.5 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 190.5 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cc8df9d-116e-4e95-bea8-650d3fe0247e")
+		)
+		(pin "1"
+			(uuid "38a9d09f-df85-446e-8ecb-2e56937a5e8f")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3c0486f-6b49-4fa2-bf85-9bd942d43da2")
+		(property "Reference" "R10"
+			(at 190.5 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 190.5 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "361dc9d4-ffb8-47e5-b061-46032e65bcf1")
+		)
+		(pin "1"
+			(uuid "bda87fce-fe89-440f-ad19-ecb92cfb50b4")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 134.62 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4b00958-0270-4f07-b358-a7f5bc4dbcd9")
+		(property "Reference" "SW3"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 140.208 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "384b2ccc-5785-404d-acb8-060fbe9790f0")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8314")
+		)
+		(pin "1"
+			(uuid "bd901715-e2f1-466c-918a-f3498a97f46a")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ebf")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa9f67f-b8cc-4321-a285-de23a2761fa1")
+		(property "Reference" "R12"
+			(at 209.55 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 209.55 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c9dd59f-00b4-4aba-9acb-22413598a1c1")
+		)
+		(pin "1"
+			(uuid "bf426e4d-39b8-4f8e-b23a-b21c57adf0b9")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 176.53 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8ef2d62-eb41-47f9-ab4d-4eac56ecf684")
+		(property "Reference" "SW5"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 182.118 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4a9f8be-72df-496c-9145-a4e2b3522887")
+		)
+		(pin "3"
+			(uuid "45cb81c0-e933-47b7-8d65-53028a4c8315")
+		)
+		(pin "1"
+			(uuid "2a0a3ed3-40e1-4ab9-9562-186d4cc40d6a")
+		)
+		(pin "4"
+			(uuid "9dca28e2-75f3-4b69-8c42-9fec9ebf8ec0")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e99fe7-57c9-4140-be71-32958268c1de")
+		(property "Reference" "R8"
+			(at 148.59 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.59 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 148.59 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98a0b086-dd44-4ed8-9b90-f27b2d6db170")
+		)
+		(pin "1"
+			(uuid "812d401e-5964-4a7f-8b20-9fa259242735")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1940cc4-a207-46b0-9098-3cafa0c377ba")
+		(property "Reference" "R6"
+			(at 107.95 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
+			(at 107.95 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f113b2e-4263-40b9-9d6a-7c7149742995")
+		)
+		(pin "1"
+			(uuid "d173a579-cf41-4144-b0d9-5874adb42ca7")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d1766d-feff-4de8-891a-c600c14e0cb7")
+		(property "Reference" "#PWR03"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3467b57-c522-4542-87fb-1beecd36a022")
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df/ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

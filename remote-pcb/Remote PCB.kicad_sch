@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6600813d-0151-4403-bf94-9fd7d77818df")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 71.12 73.66)
+		(size 49.53 50.292)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0a6e938-856b-4f96-bd34-4ab829e79de7")
+		(property "Sheetname" "Memory and Processing"
+			(at 71.12 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory_and_processing.kicad_sch"
+			(at 71.12 124.5366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 174.244 73.152)
+		(size 50.546 50.038)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee86d899-40d1-4d8c-b3bc-d75cbf3c72b7")
+		(property "Sheetname" "Button Pad"
+			(at 174.244 72.4404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_pad.kicad_sch"
+			(at 174.244 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Remote PCB"
+				(path "/6600813d-0151-4403-bf94-9fd7d77818df"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
